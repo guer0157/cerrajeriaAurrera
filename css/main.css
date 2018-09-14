@@ -6,9 +6,6 @@ gris: rgba(156, 160, 171, 1);
 img{
     width: 5rem;
 }
-#collapsemenu{
-   border: 1px solid rgba(156, 160, 171, .2);
-}
 .navbar.navbar-expand-sm.sticky-top{
     background-color: white;
 }
@@ -78,3 +75,6 @@ svg{
     100% {opacity: 1.0;}
 }
 /*Ends tablero*/
+.li-height{
+    line-height: 2rem;
+}
