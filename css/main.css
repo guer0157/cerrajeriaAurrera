@@ -1,3 +1,80 @@
+/*
+colors:
+rojo difuminado: rgba(255,123,133, 1);
+gris: rgba(156, 160, 171, 1);
+*/
 img{
-    width: 30rem;
+    width: 5rem;
 }
+#collapsemenu{
+   border: 1px solid rgba(156, 160, 171, .2);
+}
+.navbar.navbar-expand-sm.sticky-top{
+    background-color: white;
+}
+#auto-title{
+    text-align: center;
+}
+/*Tablero*/
+svg{
+    height:15rem;
+}
+}
+.cls-1 {
+    fill: #f2f2f2;
+}
+
+.cls-2 {
+    fill: #b3b3b3;
+}
+
+.cls-3,
+.cls-6 {
+    fill: red;
+}
+
+.cls-4,
+.cls-5 {
+    fill: #fff;
+}
+
+.cls-4,
+.cls-7 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 0.25px;
+}
+
+.cls-6 {
+    font-size: 160.53px;
+    font-family: MyriadPro-Regular, Myriad Pro;
+}
+
+.cls-7 {
+    font-size: 85px;
+    font-family: Seravek, Seravek;
+    fill:black;
+}
+
+.cls-8 {
+    letter-spacing: -0.02em;
+    fill: white;
+}
+
+.cls-9 {
+    letter-spacing: 0em;
+}
+
+.cls-10 {
+    fill: #ffe100;
+    animation-name: testigo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes testigo{
+    0% {opacity: 1.0;}
+    50% {opacity: 0;}
+    100% {opacity: 1.0;}
+}
+/*Ends tablero*/
