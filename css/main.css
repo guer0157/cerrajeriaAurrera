@@ -15,6 +15,10 @@ img{
     text-align: center;
 }
 /*Tablero*/
+.text-aligned{
+    text-align: center;
+    color:#007bff;
+}
 svg{
     height:15rem;
 }
