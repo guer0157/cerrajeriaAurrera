@@ -5,7 +5,14 @@ gris: rgba(156, 160, 171, 1);
 gris-bootstrap: rgba(233, 236, 239, 1)
 blue: #01BAEF; rgba(1, 186, 239, 1);
 */
-img{
+
+#head{
+    background-image: url(../img/hand-using-key-in-door_925x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#logo{
     width: 5rem;
 }
 .navbar.navbar-expand-sm.sticky-top{
@@ -13,7 +20,7 @@ img{
 }
 #auto-title{
     text-align: center;
-    color:white
+    color:rgba(1, 186, 239, .8);
 }
 /*Tablero*/
 .text-aligned{
@@ -148,14 +155,21 @@ svg{
 #foot-div{
     background-color: black;
 }
+#o_title{
+    color: white;
+    text-align: center;
+}
 #industrial{
+/*
     background-image: url(../img/urban-buildings-with-traffic_925x.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-    height: 48rem;
-}#industrial>p{
-    background-color: rgba(0,0,0,.5);
+*/
+    background-color: rgba(1, 186, 239, .8);
+    overflow: auto;
+}
+#industrial>p{
     color: white;
 }
 #foot{
