@@ -10,14 +10,15 @@ blue: #01BAEF; rgba(1, 186, 239, 1);
     background-image: url(../img/hand-using-key-in-door_925x.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 15.5rem;
-    
+    width: 38rem;
+    height: 15.7rem;
+    overflow: hidden;
 }
 #logo{
-  height: 15rem;
+  width: 17rem;
 }
 .navbar.navbar-expand-sm.sticky-top{
-    background-color: white;
+    background-color: rgba(1, 186, 239, 1);
 }
 #auto-title{
     text-align: center;
@@ -143,6 +144,9 @@ svg{
 /*ends res*/
 #res-section{
     background-color: rgba(233, 236, 239, 1)
+}
+#res-ul{
+    margin-bottom: 0;
 }
 .centerIt{
     text-align: center;
