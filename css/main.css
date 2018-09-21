@@ -175,8 +175,18 @@ svg{
 #foot-div{
     background-color: black;
 }
+#bg-img{
+    background-image: url(../img/pano_industrial.png);
+    background-repeat: no-repeat;
+    background-size: cover;        
+}
+#cer_in{
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
 #o_title{
-    color: rgba(1, 186, 239, .9);;
+    color: rgba(1, 186, 239, .9);
     text-align: center;
 }
 #industrial{
