@@ -175,15 +175,29 @@ svg{
 #foot-div{
     background-color: black;
 }
-#bg-img{
-    background-image: url(../img/pano_industrial.png);
+.bg-img-cl{
     background-repeat: no-repeat;
     background-size: cover;        
 }
-#cer_in{
+.bg-img-cl>p{
+    background-color: rgba(0,0,0,.3);
+}
+#bg-img-o{
+    background-image: url(../img/pano_industrial.png);
+    background-color: rgba(0,0,0,.5);
+}
+#bg-img-ll{
+    background-image: url(../img/keychains.png);
+}
+#bg-img-ca{
+    background-image: url(../img/candados.png);
+}
+.cer_in{
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    margin-bottom: 0;
+    font-size: 2rem;
 }
 #o_title{
     color: rgba(1, 186, 239, .9);
