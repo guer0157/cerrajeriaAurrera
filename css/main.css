@@ -164,8 +164,9 @@ svg{
 .bg-img-cl>p, .bg-img-cl>h1{
     background-color: rgba(0,0,0,.3);
 }
-.bg-img-cl>h1{
-    margin-bottom: 0;
+#bg-img-o-main{
+    background-image: url(../img/o-bg-main-h1.png);
+    background-color: rgba(0,0,0,.5);
 }
 #bg-img-o{
     background-image: url(../img/pano_industrial.png);
@@ -187,6 +188,9 @@ svg{
 #o_title{
     color: white;
     text-align: center;
+    margin-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 #industrial{
     overflow: auto;
