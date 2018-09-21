@@ -4,7 +4,9 @@ rojo difuminado: rgba(255,123,133, 1);
 gris: rgba(156, 160, 171, 1);
 gris-bootstrap: rgba(233, 236, 239, 1)
 blue: #01BAEF; rgba(1, 186, 239, 1);
+tablero: height=347.173px X
 */
+
 
 #head{
     background-image: url(../img/hand-using-key-in-door_925x.jpg);
@@ -18,7 +20,7 @@ blue: #01BAEF; rgba(1, 186, 239, 1);
   width: 17rem;
 }
 .navbar.navbar-expand-sm.sticky-top{
-    background-color: rgba(1, 186, 239, 1);
+    background-color: rgba(1, 186, 239, .9);
 }
 .nav-link{
     color: white;
@@ -151,30 +153,33 @@ svg{
 #res-ul{
     margin-bottom: 0;
 }
+.ring{
+    border: 6px solid rgba(1, 186, 239, .9);
+    border-radius: 100px;
+    width: 13rem;
+    height: 13rem;
+    display: inline-block;
+}
 .centerIt{
     text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0;
 }
 .otrosImg{
     display: inline-block;
     height:11rem;
     width:11rem;
     border-radius: 85px;
+    margin: 10px 0;
 }
 #foot-div{
     background-color: black;
 }
 #o_title{
-    color: white;
+    color: rgba(1, 186, 239, .9);;
     text-align: center;
 }
 #industrial{
-/*
-    background-image: url(../img/urban-buildings-with-traffic_925x.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-*/
-    background-color: rgba(1, 186, 239, .8);
     overflow: auto;
 }
 #industrial>p{
