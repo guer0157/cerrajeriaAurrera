@@ -153,25 +153,7 @@ svg{
 #res-ul{
     margin-bottom: 0;
 }
-.ring{
-    border: 6px solid rgba(1, 186, 239, .9);
-    border-radius: 100px;
-    width: 13rem;
-    height: 13rem;
-    display: inline-block;
-}
-.centerIt{
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 0;
-}
-.otrosImg{
-    display: inline-block;
-    height:11rem;
-    width:11rem;
-    border-radius: 85px;
-    margin: 10px 0;
-}
+
 #foot-div{
     background-color: black;
 }
@@ -179,8 +161,11 @@ svg{
     background-repeat: no-repeat;
     background-size: cover;        
 }
-.bg-img-cl>p{
+.bg-img-cl>p, .bg-img-cl>h1{
     background-color: rgba(0,0,0,.3);
+}
+.bg-img-cl>h1{
+    margin-bottom: 0;
 }
 #bg-img-o{
     background-image: url(../img/pano_industrial.png);
@@ -200,7 +185,7 @@ svg{
     font-size: 2rem;
 }
 #o_title{
-    color: rgba(1, 186, 239, .9);
+    color: white;
     text-align: center;
 }
 #industrial{
