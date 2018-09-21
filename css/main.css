@@ -29,6 +29,9 @@ tablero: height=347.173px X
     text-align: center;
     color:rgba(1, 186, 239, .8);
 }
+#installer{
+    width: inherit;
+}
 /*Tablero*/
 .text-aligned{
     text-align: center;
