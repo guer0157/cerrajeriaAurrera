@@ -151,7 +151,7 @@ svg{
             }
 /*ends res*/
 #res-section{
-    background-color: rgba(233, 236, 239, 1)
+    background-color: rgba(233, 236, 239, 1);
 }
 #res-ul{
     margin-bottom: 0;
@@ -202,13 +202,16 @@ svg{
     color: white;
 }
 #maps{
-    background-color: rgba(1, 186, 239, .8);
+    background-color: rgba(233, 236, 239, 1);
     
 }
 #maps>h1{
     text-align: center;
-    color:white;
+    color:rgba(1, 186, 239, .9);
     padding-top: 1rem;
+}
+#mapImg{
+    padding-bottom: 3rem;
 }
 #foot{
     text-align: center;
