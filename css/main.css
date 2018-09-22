@@ -37,6 +37,17 @@ tablero: height=347.173px X
     text-align: center;
     color:#007bff;
 }
+#icons{
+    margin: 0 auto;
+    background-color: rgba(1, 186, 239, 1);
+    width: inherit;
+    text-align: center;
+}
+#icon-llavecon, #icon-key, #icon-candado{
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+}
 svg{
     height:15rem;
 }
