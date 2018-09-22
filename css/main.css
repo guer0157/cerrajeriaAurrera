@@ -201,6 +201,15 @@ svg{
 #industrial>p{
     color: white;
 }
+#maps{
+    background-color: rgba(1, 186, 239, .8);
+    
+}
+#maps>h1{
+    text-align: center;
+    color:white;
+    padding-top: 1rem;
+}
 #foot{
     text-align: center;
     font-size: 13px;
