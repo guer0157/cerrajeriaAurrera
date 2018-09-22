@@ -38,7 +38,7 @@ tablero: height=347.173px X
     color:#007bff;
 }
 #icons{
-    margin: 0 auto;
+    margin: 0;
     background-color: rgba(1, 186, 239, 1);
     width: inherit;
     text-align: center;
@@ -47,6 +47,7 @@ tablero: height=347.173px X
     width: 5rem;
     height: 5rem;
     display: inline-block;
+    margin: 0 auto;
 }
 svg{
     height:15rem;
