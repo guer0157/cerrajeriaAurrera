@@ -49,7 +49,9 @@ tablero: height=347.173px X
     margin: 0 auto;
 }
 svg{
+    padding-top: 2rem;
     height:15rem;
+    padding-bottom: 2rem;
 }
 }
 .res-cls-1 {
