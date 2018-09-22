@@ -216,3 +216,12 @@ svg{
     margin-bottom: 0;
     color: white;
 }
+@include media-breakpoint-up(md) { 
+
+}
+@include media-breakpoint-up(lg) { 
+
+}
+@include media-breakpoint-up(xl) { 
+
+}
