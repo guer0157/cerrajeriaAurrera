@@ -20,10 +20,17 @@ tablero: height=347.173px X
   width: 17rem;
 }
 .navbar.navbar-expand-sm.sticky-top{
-    background-color: rgba(1, 186, 239, .9);
+    background-color: rgba(1, 186, 239, 1);
 }
 .nav-link{
     color: white;
+}
+#nav-candado, #nav-keys, #nav-llaveControl{
+ width: 2rem;
+    height: 2rem;
+}
+.nav-icon-add{
+    padding-left: .9rem;    
 }
 #auto-title{
     text-align: center;
@@ -36,17 +43,6 @@ tablero: height=347.173px X
 .text-aligned{
     text-align: center;
     color:#007bff;
-}
-#icons{
-    margin: 0;
-    width: inherit;
-    text-align: center;
-}
-#icon-llavecon, #icon-key, #icon-candado{
-    width: 5rem;
-    height: 5rem;
-    display: inline-block;
-    margin: 0 auto;
 }
 svg{
     padding-top: 2rem;
