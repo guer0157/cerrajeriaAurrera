@@ -7,7 +7,6 @@ blue: #01BAEF; rgba(1, 186, 239, 1);
 tablero: height=347.173px X
 */
 
-
 #head{
     background-image: url(../img/hand-using-key-in-door_925x.jpg);
     background-size: cover;
@@ -228,25 +227,28 @@ svg{
     margin-bottom: 0;
     color: white;
 }
-
-
-
-
-
-@include media-breakpoint-up(md) { 
-/*
-Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }  
-*/
-    
+@media (min-width: 420px){ 
+    #head{
+    background-image: url(../img/hand-using-key-in-door_925x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    }
 }
-@include media-breakpoint-up(lg) { 
-/*
-Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-*/
-    
+@media (min-width: 991.98px){ 
+    #head{
+    background-image: url(../img/hand-using-key-in-door_925x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    }
 }
-@include media-breakpoint-up(xl) { 
+@media (min-width: 1199.98px) { 
 
 }
+
+/*@include media-breakpoint-up(xl){...} */
