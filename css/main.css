@@ -233,6 +233,14 @@ svg{
     height: 350px;
     overflow: hidden;
     }
+    #logo{
+    width: 20rem;
+    }
+    .carousel-item.active{
+        margin: 0 auto;
+        width: 25rem;
+    }
+    
 }
 @media (min-width: 991.98px){ 
     #head{
@@ -242,6 +250,9 @@ svg{
     width: 100%;
     height: 550px;
     overflow: hidden;
+    }
+    #logo{
+    width: 30rem;
     }
 }
 @media (min-width: 1199.98px) { 
