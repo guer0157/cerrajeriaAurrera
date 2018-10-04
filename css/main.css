@@ -157,9 +157,11 @@ svg{
 /*ends res*/
 #res-section{
     background-color: rgba(233, 236, 239, 1);
+    margin: 0 auto;
 }
 #res-ul{
-    margin-bottom: 0;
+    margin-bottom:0;
+    padding-bottom: 2rem;
 }
 
 #foot-div{
@@ -240,7 +242,44 @@ svg{
         margin: 0 auto;
         width: 25rem;
     }
-    
+    #res-section{
+        align-items: center;
+    }
+    #installer{
+        width: 30rem;
+        margin-right: 24%;
+        margin-left: 24%;
+        border-radius: 5px;
+    }
+    .bg-img-cl{
+    background-repeat: no-repeat;
+    background-size: cover;        
+    }
+    .bg-img-cl>p, .bg-img-cl>h1{
+    background-color: rgba(0,0,0,.3);
+        height: 200px;
+    }
+    #bg-img-o-main{
+    background-image: url(../img/o-bg-main-h1.png);
+    background-color: rgba(0,0,0,.5);
+    height: 200px;
+    }
+    #bg-img-o{
+    background-image: url(../img/pano_industrial.png);
+    background-color: rgba(0,0,0,.5);
+        height: 200px;
+        background-position: center;
+    }
+    #bg-img-ll{
+    background-image: url(../img/keychains.png);
+        height: 200px;
+        background-position: center;
+    }
+    #bg-img-ca{
+    background-image: url(../img/candados.png);
+        height: 200px;
+        background-position: center;
+    }
 }
 @media (min-width: 991.98px){ 
     #head{
