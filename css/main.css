@@ -11,15 +11,54 @@ tablero: height=347.173px X
     background-image: url(../img/hand-using-key-in-door_925x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 375px;
+    width: 360px;
     height: 15.7rem;
     overflow: hidden;
+}
+#overlayers{
+    background-color: rgba(0,0,0, .5);
+    height:3300px;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3000;
+    text-align: center;
+    color: red;
+}
+#oferta{
+    padding-top: 5rem;
+    width: 100%;
+    position: fixed;
+}
+#ofert{
+    background-color: rgba(0,0,0, .5);
+}
+#oferta>h1{
+    background-color: rgba(233, 236, 239, .8);
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 0;
+}
+#oferta>h2{
+    color: white;
+    background-color: rgba(0,0,0, .5);
+    margin-bottom: 0;
+}
+#oferta>h1{
+    color: red;
+    background-color: rgba(233, 236, 239, .8);
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px;
 }
 #previous, #next{
     background-color: black;
 }
 #logo{
   width: 17rem;
+}
+li,p{
+    font-size: 1.5rem
 }
 .navbar.navbar-expand-sm.sticky-top{
     background-color: rgba(1, 186, 239, 1);
@@ -212,29 +251,24 @@ svg{
     background-color: rgba(233, 236, 239, 1);
     
 }
-#maps>h1{
-    text-align: center;
-    color:rgba(1, 186, 239, .9);
-    padding-top: 1rem;
-}
-#mapImg{
-    padding-bottom: 3rem;
-}
+
 #creditcard-div{
     background-color: rgba(233, 236, 239, 1);
     margin: 0 auto;
     text-align: center;
 }
 #span{
-    font-size: 5px;
+    font-size: 20px;
+    color: black
 }
 #pdisclaim{
     text-align: left;
-    font-size: 8px;
+    font-size: 20px;
+    margin-bottom: 0;
 }
-#creditcard-div>h3{
-    font-size: 1rem;
+#creditcard-div>h1{
     text-align: center;
+    color: rgba(1, 186, 239, .8)
 }
 #creditcard-logo{
     width: 10rem;
@@ -249,6 +283,12 @@ svg{
     margin-bottom: 0;
     color: white;
 }
+@media (min-width: 375px){ 
+#head{
+    width: 375px;
+    }
+
+}
 @media (min-width: 410px){ 
     #head{
     background-image: url(../img/hand-using-key-in-door_925x.jpg);
@@ -257,6 +297,17 @@ svg{
     width: 100%;
     height: 350px;
     overflow: hidden;
+    }
+    #overlayers{
+
+        height:3920px;
+    }
+    #ofert{
+        width: 50%;
+        background-color: rgba(1, 186, 239, .0);
+    }
+    li.nav-item{
+        border-right: 1px solid white;
     }
     #logo{
     width: 20rem;
@@ -269,10 +320,19 @@ svg{
         align-items: center;
     }
     #installer{
-        width: 30rem;
-        margin-right: 24%;
-        margin-left: 24%;
+        width: 295px;
+        margin-right: 10%;
+        margin-left: 10%;
         border-radius: 5px;
+    }
+    p, li{
+        font-size: 2rem;
+    }
+    li.nav-item{
+        font-size: 1.1rem;
+    }
+    h1{
+        font-size: 4rem;
     }
     .bg-img-cl{
     background-repeat: no-repeat;
@@ -303,6 +363,83 @@ svg{
         height: 200px;
         background-position: center;
     }
+
+}
+@media (min-width: 700px){ 
+    #head{
+    background-image: url(../img/hand-using-key-in-door_925x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    }
+    #overlayers{
+
+        height:3920px;
+    }
+    #ofert{
+        width: 50%;
+        background-color: rgba(1, 186, 239, .0);
+    }
+    li.nav-item{
+        border-right: 1px solid white;
+    }
+    #logo{
+    width: 20rem;
+    }
+    .carousel-item.active{
+        margin: 0 auto;
+        width: 25rem;
+    }
+    #res-section{
+        align-items: center;
+    }
+    #installer{
+        width: 30rem;
+        margin-right: 18%;
+        margin-left: 18%;
+        border-radius: 5px;
+    }
+    p, li{
+        font-size: 2rem;
+    }
+    li.nav-item{
+        font-size: 1.1rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .bg-img-cl{
+    background-repeat: no-repeat;
+    background-size: cover;        
+    }
+    .bg-img-cl>p, .bg-img-cl>h1{
+    background-color: rgba(0,0,0,.3);
+        height: 200px;
+    }
+    #bg-img-o-main{
+    background-image: url(../img/o-bg-main-h1.png);
+    background-color: rgba(0,0,0,.5);
+    height: 200px;
+    }
+    #bg-img-o{
+    background-image: url(../img/pano_industrial.png);
+    background-color: rgba(0,0,0,.5);
+        height: 200px;
+        background-position: center;
+    }
+    #bg-img-ll{
+    background-image: url(../img/keychains.png);
+        height: 200px;
+        background-position: center;
+    }
+    #bg-img-ca{
+    background-image: url(../img/candados.png);
+        height: 200px;
+        background-position: center;
+    }
+
 }
 @media (min-width: 991.98px){ 
     #head{
@@ -313,12 +450,41 @@ svg{
     height: 550px;
     overflow: hidden;
     }
+     #overlayers{
+
+        height:4420px;
+    }
     #logo{
     width: 30rem;
     }
+    #installer{
+        width:30rem;
+        margin-right: 18%;
+        margin-left: 18%;
+        border-radius: 5px;
+    }
 }
-@media (min-width: 1199.98px) { 
-
+@media (min-width: 1024px) { 
+ #installer{
+        width:30rem;
+        margin-right: 33%;
+        margin-left: 33%;
+        border-radius: 5px;
+    }
+    #creditcard-logo{
+    width: 25rem;
+    padding-bottom: 4rem;
+    margin: 0 auto;
+    display: inline-block;
+    
+    }
+    #o_title{
+        font-size: 6rem;
+    }
+    .cer_in{
+        font-size: 4rem;
+    }
+    .li-height{
+    line-height: 3rem;
+    }
 }
-
-/*@include media-breakpoint-up(xl){...} */
