@@ -58,7 +58,11 @@ tablero: height=347.173px X
   width: 17rem;
 }
 li,p{
-    font-size: 1.5rem
+    font-size: 1.5rem;
+}
+#n{
+width:1.5rem;
+height:1.5rem;
 }
 .navbar.navbar-expand-sm.sticky-top{
     background-color: rgba(1, 186, 239, 1);
@@ -283,6 +287,12 @@ svg{
     margin-bottom: 0;
     color: white;
 }
+@media (min-width: 349px){ 
+#head{
+    width: 350px;
+    }
+
+}
 @media (min-width: 375px){ 
 #head{
     width: 375px;
@@ -328,6 +338,10 @@ svg{
     p, li{
         font-size: 2rem;
     }
+span#n{
+width:2rem;
+height:2rem;
+}
     li.nav-item{
         font-size: 1.1rem;
     }
@@ -404,6 +418,10 @@ svg{
     p, li{
         font-size: 2rem;
     }
+span#n{
+width:2rem;
+height:2rem;
+}
     li.nav-item{
         font-size: 1.1rem;
     }

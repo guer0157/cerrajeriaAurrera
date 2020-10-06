@@ -1,5 +1,5 @@
 let app={
-    init: function(){
+    //init: function(){
         console.log("hello")
        let overlaydiv=document.createElement("div");
         overlaydiv.setAttribute("id","overlayers");
@@ -26,6 +26,6 @@ let app={
             console.log(doc),
             doc.removeChild(overlaydiv);
         },5000)
+//}
 }
-}
-document.addEventListener('DOMContentLoaded', app.init);
+// document.addEventListener('DOMContentLoaded', app.init);
